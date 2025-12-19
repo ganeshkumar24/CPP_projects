@@ -1,0 +1,3 @@
+Netlist Parser and Logic Optimizer
+Parses a simple text-based netlist (gates/connections) and optimize it by removing redundant gates (e.g., constant propagation, common sub-expression elimination). Use a graph model, compute SCOAP-like metrics (controllability/observability), and outputs an optimized netlist. Handles hierarchical modules with regex parsing.
+C++ Features used: Templates, concepts, std::variant, std::regex, std::filesystem, std::ranges, lambdas, smart pointers.
