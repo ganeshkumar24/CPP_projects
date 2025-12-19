@@ -1,0 +1,8 @@
+// Full Adder Circuit
+INPUT A B Cin;
+XOR X1 A B S1;
+XOR X2 S1 Cin SUM;
+AND A1 A B C1;
+AND A2 S1 Cin C2;
+OR O1 C1 C2 CARRY;
+OUTPUT SUM CARRY;

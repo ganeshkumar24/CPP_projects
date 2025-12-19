@@ -1,0 +1,14 @@
+# Compile
+g++ -std=c++11 -o circuit_sim circuit_simulator.cpp
+
+# Create sample netlists
+./circuit_sim --samples
+
+# Run with a specific circuit
+./circuit_sim half_adder.net A=1 B=0
+
+# Generate truth table
+./circuit_sim half_adder.net --truth-table
+
+# Interactive mode
+./circuit_sim half_adder.net

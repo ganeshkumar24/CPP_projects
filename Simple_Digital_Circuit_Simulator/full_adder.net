@@ -1,0 +1,6 @@
+// Half Adder Circuit
+// Sum = A XOR B, Carry = A AND B
+INPUT A B;
+XOR X1 A B SUM;
+AND A1 A B CARRY;
+OUTPUT SUM CARRY;
