@@ -1,0 +1,23 @@
+Build:
+mkdir build
+cd build
+cmake ..
+make
+
+Usage:# Parse example circuits
+./verilog_parser
+
+# Parse a Verilog file
+./verilog_parser my_design.v
+
+Sample Output:
+Module: simple_circuit
+  Ports: a, b, c, d, out
+  Inputs (4): a b c d
+  Outputs (1): out
+  Wires (2): w1 w2
+  Gates (3):
+    - u1 (AND) connections: in1->a in2->b out->w1
+    - u2 (OR) connections: in1->c in2->d out->w2
+    - u3 (AND) connections: in1->w1 in2->w2 out->out
+
