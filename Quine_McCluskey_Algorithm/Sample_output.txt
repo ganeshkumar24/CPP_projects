@@ -1,0 +1,17 @@
+=========================================
+  Quine-McCluskey Boolean Minimizer
+=========================================
+
+Choose mode:
+1. Run unit tests
+2. Minimize custom function
+Enter choice (1 or 2): 2
+Enter number of variables (1-8): 3
+Enter minterms (space-separated, end with -1): 0 2 4 6 -1
+Enter don't care terms (space-separated, end with -1, or just -1 if none): 1 5 -1
+
+=========================================
+Minimized expression: C'
+=========================================
+
+In algebraic form: F(A,B,C) = C'
